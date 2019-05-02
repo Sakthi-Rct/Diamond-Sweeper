@@ -39,7 +39,7 @@ class App extends React.PureComponent {
     const { mainArray } = this.state;
     return (
       <div className="App">
-        <h1>The Pittsburgh Pirates</h1>
+        <h1>Diamond Sweeper</h1>
         <h2 className="sub-heading">Start Gaming now !!</h2>
         {mainArray.length && (
           <PlayBoard
